@@ -1,3 +1,18 @@
-@import "_global.css";
-@import "../components/header/header.css";
-@import "../components/footer/footer.css";
+@import "../../node_modules/libraries-frontend-framelunch/css/_variables.css";
+@import "../../node_modules/libraries-frontend-framelunch/css/_keyframes.css";
+@import "../../node_modules/libraries-frontend-framelunch/css/_reset.css";
+@import "../modules/css-animation01/css-animation01.css";
+
+body {
+    background: #eee;
+}
+
+.h1 {
+    font-size: 2.2rem;
+}
+
+.h2 {
+    font-size: 1.6rem;
+    color: #666;
+    font-weight: bold;
+}
